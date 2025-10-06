@@ -1,6 +1,6 @@
 import React, {lazy} from 'react'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import {BroswerRouter, Routes, Route} from "react-router-dom";
 const Home = lazy(() => import('./pages/Home.jsx'));
 const Login = lazy(() => import('./pages/Login.jsx'));
 const Chat = lazy(() => import('./pages/Chat.jsx'));
